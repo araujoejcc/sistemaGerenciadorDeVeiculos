@@ -19,7 +19,7 @@ public class Aplicacao {
 
 		try {
 			Connection myConnection = DriverManager.getConnection(url, usuario, senha);
-			System.out.println("Conectado com sucesso!");
+			System.out.println("Conectado com sucesso!?");
 
 			String cpf = "01346430462";
 			int idade = 38;
